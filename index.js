@@ -4,7 +4,7 @@
  * index.ts
  *
  * Usage: ```
-npm i -g cn2tw
+npm i -g @dishanqian/cn2tw
 cn2tw P:\anqi\Desktop\tech\js\_test\js_node_cn2tw\zh_cn.txt P:\anqi\Desktop\tech\js\_test\js_node_cn2tw\zh_tw.txt
  * ```
  *
