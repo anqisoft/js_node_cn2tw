@@ -1,6 +1,6 @@
 {
   "name": "@dishanqian/cn2tw",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "",
   "main": "index.min.js",
   "bin": {
