@@ -106,7 +106,7 @@ exports.convert = convert;
       case '-version':
       case '/v':
       case '/version':
-        console.log('0.0.4');
+        console.log('0.0.5');
         exit();
         break;
 
