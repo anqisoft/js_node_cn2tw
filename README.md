@@ -31,7 +31,7 @@ cd js_node_cn2tw
 npm i @dishanqian/cn_and_tw
 
 # test
-node index.js zh_cn.txt zh_tw.txt
+node test/index.js zh_cn.txt zh_tw.txt
 ```
 
 ## This
