@@ -7,21 +7,30 @@ Created on Wed Jan 10 2024 20:09:00<br>
 <li><zh_tw>翻譯文件中的簡體中文到繁體中文</zh_tw></li>
 </ul>
 
-### Usage
+### Usage1
 ```bash
 npm i -g @dishanqian/cn2tw
 cn2tw zh_cn.txt zh_tw.txt
+```
+
+### Usage2
+```bash
+npm i @dishanqian/cn2tw
+```
+```javascript
+const { convert } = require('@dishanqian/cn2tw');
+// convert('sourceFilename', 'goalFilename');
+convert('zh_cn.txt', 'zh_tw.txt');
 ```
 
 ### Develop
 ```bash
 git clone git+ssh://git@github.com/anqisoft/js_node_cn2tw
 cd js_node_cn2tw
-npm i @dishanqian/cn_and_tw
-```
 
-### Test
-```bash
+npm i @dishanqian/cn_and_tw
+
+# test
 node index.js zh_cn.txt zh_tw.txt
 ```
 
