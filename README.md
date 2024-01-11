@@ -7,22 +7,22 @@ Created on Wed Jan 10 2024 20:09:00<br>
 <li><zh_tw>翻譯文件中的簡體中文到繁體中文</zh_tw></li>
 </ul>
 
-### Import
-```typescript
-import { convert } from 'https://deno.land/x/cn2tw/@v0.0.1/index.ts';
-```
-
-### Usage1
+### Usage
 ```bash
-::deno run --allow-run --allow-read --allow-write https://deno.land/x/cn2tw/@v0.0.1/index.ts ~sourceFilename~ ~goalFilename~
-deno run --allow-run --allow-read --allow-write https://deno.land/x/cn2tw/@v0.0.1/index.ts zh_cn.txt zh_tw.txt
+npm i -g @dishanqian/cn2tw
+cn2tw zh_cn.txt zh_tw.txt
 ```
 
-### Usage2
-```typescript
-import { convert } from 'https://deno.land/x/cn2tw/@v0.0.1/index.ts';
-// convert(~sourceFilename1~, ~goalFilename1~);
-convert('zh_cn.txt', 'zh_tw.txt');
+### Develop
+```bash
+git clone git+ssh://git@github.com/anqisoft/js_node_cn2tw
+cd js_node_cn2tw
+npm i @dishanqian/cn_and_tw
+```
+
+### Test
+```bash
+node index.js zh_cn.txt zh_tw.txt
 ```
 
 ## This
